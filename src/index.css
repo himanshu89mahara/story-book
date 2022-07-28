@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'Hind';
+  /* font-style: normal;
+  font-weight: 400; */
+  src: url('./assets/fonts/Hind-Regular.ttf') format('truetype');
+}
+
+*{
+    font-family: 'Hind', sans-serif;
+    font-size: 14px;
+}
