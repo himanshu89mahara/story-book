@@ -23,6 +23,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<LoginPage />} />
+          <Route path="" element={<LoginPage />} />
           <Route path="/dashboard" element={<EventsPage />} />
           <Route path="/nominations" element={<NominationPage />} />
 
