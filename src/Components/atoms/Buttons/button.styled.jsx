@@ -1,4 +1,9 @@
 import styled from 'styled-components';
+const StyleIcon = styled.i`
+  width:27px;
+  height:27px;
+`;
+
 export const StyledButton = styled.button`
     box-sizing: border-box;
     border: 1px solid #fe414d;
@@ -8,7 +13,7 @@ export const StyledButton = styled.button`
     display: inline-block;
     min-width: 168.21px;
     line-height: 22px;
-    font-size: 14px;
+    font-size: 1rem;
     color: ${props => props.primary?'white':'#fe414d'};
     background-color: ${props => props.primary?'#fe414d':'transparent'};
     padding: ${(props)=>{
@@ -28,17 +33,24 @@ export const StyledButton = styled.button`
     ${props=>props.disabled && `
       opacity:0.3;
     `}
+
+    i{
+      margin:5px;
+    }
+
 `;
 
-export const StyledPaginationLink = styled(StyledButton)`
-    min-width:auto;
-    width: 40px;
+export const StyledDecisionButton = styled(StyledButton)`
+
+    font-size:18px;
     height:40px;
-    border-radius: 50px;
-    padding:0;
     display:flex;
     align-items:center;
     justify-content:center;
+    padding: 0 20px;
 
-
+    i{
+      margin:5px 10px 8px 5px;
+    }
 `;
+
