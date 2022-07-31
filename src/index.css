@@ -2,7 +2,7 @@
   font-family: 'Hind';
   /* font-style: normal;
   font-weight: 400; */
-  src: url('./assets/fonts/Hind-Regular.ttf') format('truetype');
+  src: url('../public/fonts/Hind-Regular.ttf') format('truetype');
 }
 
 *{
