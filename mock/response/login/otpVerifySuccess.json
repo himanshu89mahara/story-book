@@ -1,0 +1,18 @@
+{
+    "status":true,
+    "message":"",
+    "data":{
+        "token":"fld3j4l32j4l23j4lj234lj24lj2l4j2l4j2lk4jl24jl2j4l2j4ljfsldkjl6jl54j6l",
+        "user":{
+            "_id":"sdlfjslfjsljflsfj",
+            "firstName":"Himanshu",
+            "lastName":"Mahara",
+            "email":"himanshu.mahara@publicissapient.com",
+            "photo":"",
+            "skills":"XT-Angular",
+            "designation":"Senior Associate"
+        }
+
+    },
+    "errors":{}
+}

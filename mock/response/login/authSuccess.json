@@ -1,0 +1,14 @@
+{
+    "status":true,
+    "message":"",
+    "user":{
+        "_id":"sdlfjslfjsljflsfj",
+        "firstName":"Himanshu",
+        "lastName":"Mahara",
+        "email":"himanshu.mahara@publicissapient.com",
+        "photo":"",
+        "skills":"XT-Angular",
+        "designation":"Senior Associate"
+    },
+    "errors":{}
+}

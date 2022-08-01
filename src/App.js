@@ -6,19 +6,14 @@ import { Link, Route, Router, Routes } from 'react-router-dom';
 import LoginPage from './Pages/Login/Login.Page';
 import EventsPage from './Pages/Events/Events.Page';
 import NominationPage from './Pages/Nominations/Nominations.Page';
+import Header from './Components/organisms/Header/Header';
 
 function App() {
   return (
     <div className="App">
       {/* <Button  primary label="dsfdsfsdf" icon="fa-check-circle" />
       <PageLink>sdfdsf</PageLink> */}
-      <header>
-        <ul>
-          <li><Link to="/">Login Page</Link></li>
-          <li><Link to="/dashboard">Event List Page</Link></li>
-          <li><Link to="/nominations">Nominations Page</Link></li>
-        </ul>
-      </header>
+      <Header />
 
       <main>
         <Routes>
