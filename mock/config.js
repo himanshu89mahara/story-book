@@ -1,5 +1,6 @@
 const routes = [
-    {request:'/login',response:'/response/login/loginSuccess.json',type:'get'}
+    {request:'/login',response:'/response/login/loginSuccess.json',type:'post'},
+    {request:'/user/verify',response:'/response/login/loginSuccess.json',type:'post'}
 
 
 ];

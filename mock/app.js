@@ -1,7 +1,10 @@
 const express = require("express");
+const cors = require("cors");
 const path = require("path");
 const routes = require("./config");
 const app = express();
+
+app.use(cors())
 const PORT = process.env.PORT || 4000;
 
 routes.forEach((route) => {
