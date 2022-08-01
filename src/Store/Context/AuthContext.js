@@ -2,7 +2,8 @@ import { createContext } from "react";
 
 const auth = {
     isLoggedIn: false,
-    login: async (_token,user) => {},
+    loginStep1: async (email) => {},
+    loginStep2: async (email,otp) => {},
     loggout: () => {},
     token: "",
     user: null,
